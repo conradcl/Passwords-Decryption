@@ -31,7 +31,7 @@ const char binaryArraysFour[][5] = {
 };
 
 int main() {
-    const int maxLength = 1;
+    const int maxLength = 4;
     char password[maxLength + 1] = { 0 };
 
     ofstream outfile("output1.txt");
