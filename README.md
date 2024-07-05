@@ -1,3 +1,3 @@
 Neural Network training to decrypt SHA256 and RSA encrypted values of text. The AI model struggles to function as a result of the large values from the RSA and SHA256. This paired with the issue of diffusion lead it to be incredibly inefficient. Two different loss functions were used: Mean Squared Error and Sparse Categorical Crossentropy. Only mean_squared_error was able to achieve an output for loss and it was over 1 billion and only on the first epoch.
 Generation of the 'passwords' and encyrpted values was coded in C++ 20 through visual studio's IDE.
-The Jupyter Notebook used a conda mini environment and was coded in Python 3.9 and the conda list is included in the form of a YAML.
+The Jupyter Notebook used a conda mini environment and was coded in Python 3.9. The conda list is included in the form of a YAML.
